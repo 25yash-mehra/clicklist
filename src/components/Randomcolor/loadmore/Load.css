@@ -1,0 +1,21 @@
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.box {
+    border: 2px solid black;
+    padding: 10px;
+    flex: 1 1 20%;
+    box-sizing: border-box;
+}
+
+.list {
+    padding: 20px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

@@ -1,0 +1,11 @@
+.container{
+    position: relative;
+}
+.imageSlide {
+  display: flex;
+  position: absolute;
+}
+.butn {
+  position: absolute;
+  top: 14rem;
+}

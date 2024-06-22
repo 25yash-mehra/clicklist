@@ -1,0 +1,10 @@
+/* .color{
+ color: red;
+ cursor: pointer;
+} */
+ .on{
+    color: red;
+ }
+ .of{
+    color: black;
+ }
