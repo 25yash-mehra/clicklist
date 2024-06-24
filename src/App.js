@@ -47,12 +47,15 @@
 
 // export default App
 import React from 'react'
+// import Light from './Light-Dark/Light'
+import Mortage from './Mortage/Mortage'
 // import Color from './components/Randomcolor/Color'
 // import Star from './components/Randomcolor/starrating/Star'
 // import Slide from './imageSlider/Slide'
 // import Load from './components/Randomcolor/loadmore/Load'
-import Folder from './treeGraph/Folder'
-import {files} from './treeGraph/Data'
+// import Folder from './treeGraph/Folder'
+// import {files} from './treeGraph/Data'
+// import Qr from './QRCodeGenerator/Qr'
 
 function App() {
   return (
@@ -61,7 +64,10 @@ function App() {
     {/* <Star/> */}
     {/* <Slide/> */}
     {/* <Load/> */}
-    <Folder file={files}/>
+    {/* <Folder file={files}/> */}
+    {/* <Qr/> */}
+    {/* <Light/> */}
+    <Mortage/>
   </>
   )
 }
