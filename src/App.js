@@ -47,8 +47,11 @@
 
 // export default App
 import React from 'react'
+// import Undocounter from './undoableCounter/Undocounter'
+import Search from './searchList/Search'
+// import Modale from './Modale/Modale'
 // import Light from './Light-Dark/Light'
-import Mortage from './Mortage/Mortage'
+// import Mortage from './Mortage/Mortage'
 // import Color from './components/Randomcolor/Color'
 // import Star from './components/Randomcolor/starrating/Star'
 // import Slide from './imageSlider/Slide'
@@ -67,7 +70,10 @@ function App() {
     {/* <Folder file={files}/> */}
     {/* <Qr/> */}
     {/* <Light/> */}
-    <Mortage/>
+    {/* <Mortage/> */}
+    {/* <Modale/> */}
+    {/* <Undocounter/> */}
+    <Search/>
   </>
   )
 }
